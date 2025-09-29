@@ -2,13 +2,31 @@ header {
     background-color: #BBDCE5;
     display: flex;
     justify-content: space-around;
+    height: 80px;
 }
 
 main {
-    background-color: #ECEEDF;
     font-family: "LXGW WenKai Mono TC", monospace;
+}
+
+main > div {
+    height: 500px;
 }
 
 footer {
     background-color: #CFAB8D;
+    height: 100px;
+    margin: 0;
+}
+
+.post {
+    background-color: burlywood;
+    width: 400px;
+    height: 400px;
+}
+
+.post img {
+    display: grid;
+    place-items: center;
+    align-items: center;
 }
