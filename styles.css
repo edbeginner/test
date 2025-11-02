@@ -1,22 +1,14 @@
-header {
-    background-color: #BBDCE5;
-    display: flex;
-    justify-content: space-around;
-    height: 80px;
-}
-
 main {
     font-family: "LXGW WenKai Mono TC", monospace;
-}
-
-main > div {
-    height: 500px;
+    display: flex;
+    height: 100vh;
 }
 
 footer {
     background-color: #CFAB8D;
     height: 100px;
     margin: 0;
+    align-items: end;
 }
 
 .post {
@@ -29,4 +21,12 @@ footer {
     display: grid;
     place-items: center;
     align-items: center;
+}
+
+nav > div {
+    display: flex;
+}
+
+.navbar-collapse {
+    justify-content: end;
 }
